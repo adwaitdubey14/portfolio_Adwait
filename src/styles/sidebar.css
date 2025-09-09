@@ -1,0 +1,90 @@
+.sidebar-title {
+  color: #868a9b !important;
+  text-decoration: none;
+  font-size: large;
+  font-weight: 600;
+}
+.sidebar-title:hover {
+  color: black !important;
+}
+@media screen and (min-width: 700px) {
+  .sidebar-container {
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow-x: hidden;
+    overflow: auto;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 700px) {
+  .sidebar-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar-container a {
+    display: float; /* Change float to display block */
+    text-align: center;
+  }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar-container a {
+    text-align: center;
+    float: none;
+  }
+}
+.mobile-view {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .main {
+    height: 100%;
+  }
+  .sidebar {
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  .desktop-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .desktop-view {
+    display: none;
+  }
+
+  .mobile-view {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: inherit;
+    background-color: white;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .HamburgerMenu {
+    color: black;
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+  }
+  .close-btn {
+    color: black;
+    position: absolute;
+    right: 2%;
+    top: 0;
+    cursor: pointer;
+  }
+}

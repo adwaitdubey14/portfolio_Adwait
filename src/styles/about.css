@@ -1,0 +1,58 @@
+.about-container {
+  /* height: 100vh; */
+  box-shadow: -10px 0 30px rgb(0 0 0/5%);
+  background-color: #f7f7f7;
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+
+.about-text {
+  color: #868a9b;
+  font-size: large;
+  padding-bottom: 30px;
+  text-align: justify;
+}
+.about-detail-header {
+  background-color: #eaeaea;
+  justify-content: center;
+
+  display: flex;
+}
+.about-detail-header-title {
+  color: #000;
+  font-family: syne, Sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  /* display: contents; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.info-container {
+  color: #868a9b;
+}
+/* affects the buttons in about and contact me section */
+.btn-secondary {
+  background-color: #666;
+  border-radius: 0%;
+}
+.btn-secondary:hover {
+  background-color: black;
+}
+.adwait-dubey-about {
+  padding-top: 40px;
+}
+.about-title {
+  padding-bottom: 30px;
+  font-size: xxx-large;
+}
+.infotable-text {
+  color: #868a9b;
+}
+.infotable-conatiner {
+  background-color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}

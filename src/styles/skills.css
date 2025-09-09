@@ -1,0 +1,84 @@
+.skills-container {
+  /* height: 100vh; */
+  box-shadow: -10px 0 30px rgb(0 0 0/5%);
+}
+.skills-header {
+  padding-top: 40px;
+}
+
+.skillsTab-container {
+  background-color: #f7f7f7;
+  color: #868a9b;
+}
+
+.slick-prev::before {
+  /* color: black; */
+  display: none;
+}
+.slick-next {
+  /* right: 3% !important; */
+  /* z-index: 1; */
+}
+.slick-next::before {
+  /* color: black; */
+  display: none;
+}
+
+.skill-icon:hover {
+  color: #000;
+}
+.skill-header {
+  color: #000;
+  height: 75px;
+}
+.card-skills-tab {
+  height: 400px;
+  background-color: #f7f7f7;
+  color: #868a9b;
+  border-bottom: 7px solid rgba(0, 0, 0, 0.1);
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+
+  border-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.1) 75%,
+      transparent 50%
+    )
+    100% 1;
+}
+.bar-skills-tab {
+  height: 100%;
+  background: #d9d9d9;
+
+  overflow: hidden;
+}
+.hover-effect:hover .skill-icon {
+  color: black;
+}
+.hover-effect .skill-icon {
+  transition: color 0.3s ease; /* Add transition property */
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  /* margin: -20px 0px 0px 0px; */
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 30px;
+}
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url("https://img.icons8.com/ios/50/000000/long-arrow-left.png") 0
+    0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("https://img.icons8.com/ios/50/000000/long-arrow-right.png") 0
+    0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-disabled {
+  opacity: 0.2;
+}
